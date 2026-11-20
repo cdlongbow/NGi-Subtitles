@@ -1,0 +1,71 @@
+name: 字幕入库
+
+on:
+  push:
+    branches: [main]
+  pull_request_target:
+    branches: [main]
+    types: [opened, reopened, synchronize, ready_for_review, edited]
+  workflow_dispatch:
+    inputs:
+      rebuild:
+        description: 从 Subtitles 全量重建索引
+        type: boolean
+        default: false
+
+permissions: {}
+
+concurrency:
+  group: subtitle-pool-main
+  queue: max
+
+jobs:
+  import:
+    if: >-
+      github.repository == 'li-peifeng/NGi-Subtitles' &&
+      (github.event_name != 'pull_request_target' ||
+        (github.event.pull_request.user.id == 144838180 && !github.event.pull_request.draft))
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: write
+      pull-requests: read
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          ref: refs/heads/main
+          fetch-depth: 0
+          filter: blob:none
+      - name: 校验并合并上传 PR
+        if: github.event_name == 'pull_request_target'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 scripts/subtitle_pool.py approve "$GITHUB_EVENT_PATH"
+      - name: 解压字幕并更新索引
+        env:
+          REBUILD_INDEX: ${{ inputs.rebuild == true }}
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          args=()
+          if [[ "$REBUILD_INDEX" == 'true' ]]; then
+            args+=(--rebuild)
+          fi
+          for attempt in 1 2 3; do
+            git fetch --no-tags origin main
+            git reset --hard FETCH_HEAD
+            result=0
+            python3 scripts/subtitle_pool.py ingest "${args[@]}" || result=$?
+            if [[ "$result" != 0 && "$result" != 2 ]]; then
+              exit "$result"
+            fi
+            git add -A -- update Subtitles tree.json
+            if git diff --cached --quiet; then
+              exit "$result"
+            fi
+            git commit -m '自动入库字幕并更新索引'
+            if git push origin HEAD:refs/heads/main; then
+              exit "$result"
+            fi
+          done
+          exit 1
