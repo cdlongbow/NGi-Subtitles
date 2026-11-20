@@ -111,6 +111,7 @@
       "ACHJ-095.srt",
       "ACHJ-096.srt",
       "ACHJ-097.srt",
+      "ACHJ-098.srt",
       "ACHJ-099.srt",
       "ACHJ-100.srt"
     ],
@@ -571,8 +572,10 @@
       "CJOD-540.srt",
       "CJOD-543.srt",
       "CJOD-544.srt",
+      "CJOD-545.srt",
       "CJOD-547.srt",
       "CJOD-548.srt",
+      "CJOD-549.srt",
       "CJOD-591.srt",
       "CJOD-592.srt"
     ],
@@ -641,7 +644,8 @@
   },
   "D": {
     "DAL": [
-      "DAL-012.srt"
+      "DAL-012.srt",
+      "DAL-013.srt"
     ],
     "DAM": [
       "DAM-010.srt"
@@ -937,9 +941,11 @@
       "DSOD-122.srt",
       "DSOD-124.srt",
       "DSOD-125.srt",
+      "DSOD-129.srt",
       "DSOD-130.srt",
       "DSOD-133.srt",
       "DSOD-136.srt",
+      "DSOD-138.srt",
       "DSOD-141.srt",
       "DSOD-21.srt"
     ],
@@ -2050,6 +2056,7 @@
       "JQJ-002-CD2.srt",
       "JQJ-002.srt",
       "JQJ-003.srt",
+      "JQJ-004.srt",
       "JQJ-007.srt",
       "JQJ-008.srt",
       "JQJ-011.srt"
@@ -2255,6 +2262,7 @@
       "JUR-869.srt",
       "JUR-871.srt",
       "JUR-872.srt",
+      "JUR-873.srt",
       "JUR-874.srt",
       "JUR-875.srt",
       "JUR-876.srt",
@@ -2282,8 +2290,11 @@
       "JUR-902.srt",
       "JUR-903.srt",
       "JUR-904.srt",
+      "JUR-906.srt",
+      "JUR-907.srt",
       "JUR-908.srt",
       "JUR-910.srt",
+      "JUR-913.srt",
       "JUR-914.srt",
       "JUR-915.srt",
       "JUR-918.srt",
@@ -3144,6 +3155,9 @@
     "MRXD": [
       "MRXD-077.ass"
     ],
+    "MSAJ": [
+      "MSAJ-023.srt"
+    ],
     "MTALL": [
       "MTALL-061.srt"
     ],
@@ -3274,7 +3288,11 @@
       "NACT-203.srt",
       "NACT-209.srt",
       "NACT-210.srt",
-      "NACT-211.srt"
+      "NACT-211.srt",
+      "NACT-213.srt",
+      "NACT-214.srt",
+      "NACT-217.srt",
+      "NACT-218.srt"
     ],
     "NAKA": [
       "NAKA-014.srt"
