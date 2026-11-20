@@ -20,7 +20,10 @@ UPLOADER_ID = 144838180  # jzdxjk
 SUBTITLES = Path("Subtitles")
 INBOX = Path("update")
 INDEX = Path("tree.json")
-NUMBER = re.compile(r"([A-Z0-9]{1,80})-([0-9]{1,40})[.]([A-Z0-9]{1,16})", re.ASCII | re.I)
+NUMBER = re.compile(
+    r"([A-Z0-9]{1,80})-([0-9]{1,40})(-CD[0-9]{1,16})?[.]([A-Z0-9]{1,16})",
+    re.ASCII | re.I,
+)
 MIB = 1024 * 1024
 MAX_ZIP = 50 * MIB
 MAX_MEMBER = 16 * MIB
@@ -51,9 +54,10 @@ def subtitle_path(filename):
     match = NUMBER.fullmatch(filename)
     if match is None:
         return None
-    prefix, number, extension = match.groups()
+    prefix, number, part, extension = match.groups()
     prefix = prefix.upper()
-    return SUBTITLES / prefix[0] / prefix / f"{prefix}-{number}.{extension.lower()}"
+    part = part.upper() if part else ""
+    return SUBTITLES / prefix[0] / prefix / f"{prefix}-{number}{part}.{extension.lower()}"
 
 
 def read_archive(source):
@@ -95,7 +99,7 @@ def read_archive(source):
             files[target] = data
 
     if not files:
-        raise InvalidUpload("ZIP has no subtitles named PREFIX-NUMBER.ext")
+        raise InvalidUpload("ZIP has no subtitles named PREFIX-NUMBER.ext or PREFIX-NUMBER-CDn.ext")
     return files, ignored
 
 
