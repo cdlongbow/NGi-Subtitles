@@ -1,1 +1,672 @@
-{}
+{
+  "A": {
+    "AARM": [
+      "AARM-339.srt",
+      "AARM-375.srt"
+    ],
+    "ABF": [
+      "ABF-087.srt",
+      "ABF-125.srt",
+      "ABF-334.srt",
+      "ABF-338.srt",
+      "ABF-340.srt",
+      "ABF-354.srt",
+      "ABF-355.srt",
+      "ABF-356.srt",
+      "ABF-357.srt",
+      "ABF-358.srt",
+      "ABF-359.srt",
+      "ABF-360.srt",
+      "ABF-361.srt",
+      "ABF-362.srt",
+      "ABF-363.srt",
+      "ABF-364.srt",
+      "ABF-365.srt",
+      "ABF-366.srt",
+      "ABF-367.srt",
+      "ABF-369.srt",
+      "ABF-370.srt",
+      "ABF-371.srt",
+      "ABF-372.srt",
+      "ABF-373.srt",
+      "ABF-374.srt",
+      "ABF-376.srt",
+      "ABF-377.srt",
+      "ABF-380.srt",
+      "ABF-381.srt",
+      "ABF-382.srt",
+      "ABF-383.srt",
+      "ABF-384.srt",
+      "ABF-385.srt",
+      "ABF-386.srt",
+      "ABF-387.srt",
+      "ABF-388.srt",
+      "ABF-389.srt",
+      "ABF-391.srt",
+      "ABF-392.srt",
+      "ABF-394.srt",
+      "ABF-395.srt",
+      "ABF-396.srt",
+      "ABF-397.srt",
+      "ABF-398.srt",
+      "ABF-399.srt",
+      "ABF-400.srt",
+      "ABF-401.srt",
+      "ABF-402.srt"
+    ],
+    "ABP": [
+      "ABP-159.srt",
+      "ABP-171.srt",
+      "ABP-178.ass",
+      "ABP-485.srt",
+      "ABP-504.srt",
+      "ABP-542.ass",
+      "ABP-542.srt",
+      "ABP-572.srt",
+      "ABP-611.ass",
+      "ABP-634.srt",
+      "ABP-656.srt",
+      "ABP-670.srt",
+      "ABP-698.srt",
+      "ABP-721.srt",
+      "ABP-733.srt",
+      "ABP-733.ssa",
+      "ABP-746.srt",
+      "ABP-770.srt",
+      "ABP-821.ass",
+      "ABP-821.srt",
+      "ABP-835.srt",
+      "ABP-883.srt",
+      "ABP-968.srt",
+      "ABP-995.srt"
+    ],
+    "ABS": [
+      "ABS-001.srt",
+      "ABS-002.srt",
+      "ABS-012.srt",
+      "ABS-015.ass",
+      "ABS-076.srt",
+      "ABS-103.ass",
+      "ABS-166.srt"
+    ],
+    "ABW": [
+      "ABW-023.srt",
+      "ABW-043.srt",
+      "ABW-065.srt",
+      "ABW-153.srt",
+      "ABW-208.srt"
+    ],
+    "ABY": [
+      "ABY-014.srt"
+    ],
+    "ACHJ": [
+      "ACHJ-048.srt",
+      "ACHJ-085.srt",
+      "ACHJ-088.srt",
+      "ACHJ-089.srt",
+      "ACHJ-090.srt",
+      "ACHJ-092.srt",
+      "ACHJ-093.srt",
+      "ACHJ-094.srt",
+      "ACHJ-095.srt",
+      "ACHJ-096.srt",
+      "ACHJ-097.srt",
+      "ACHJ-099.srt",
+      "ACHJ-100.srt"
+    ],
+    "ADN": [
+      "ADN-165.srt",
+      "ADN-187.srt",
+      "ADN-414.srt",
+      "ADN-517.srt",
+      "ADN-529.srt",
+      "ADN-758.srt",
+      "ADN-763.srt",
+      "ADN-774.srt",
+      "ADN-777.srt",
+      "ADN-780.srt",
+      "ADN-782.srt",
+      "ADN-783.srt",
+      "ADN-784.srt",
+      "ADN-785.srt",
+      "ADN-787.srt",
+      "ADN-788.srt",
+      "ADN-789.srt",
+      "ADN-791.srt",
+      "ADN-792.srt",
+      "ADN-793.srt",
+      "ADN-795.srt",
+      "ADN-797.srt",
+      "ADN-798.srt",
+      "ADN-799.srt",
+      "ADN-801.srt",
+      "ADN-802.srt",
+      "ADN-803.srt",
+      "ADN-804.srt",
+      "ADN-805.srt",
+      "ADN-806.srt",
+      "ADN-807.srt",
+      "ADN-809.srt",
+      "ADN-810.srt",
+      "ADN-811.srt",
+      "ADN-812.srt",
+      "ADN-813.srt",
+      "ADN-814.srt"
+    ],
+    "ADVO": [
+      "ADVO-233.srt"
+    ],
+    "AGAV": [
+      "AGAV-178.srt",
+      "AGAV-183.srt"
+    ],
+    "AGMX": [
+      "AGMX-272.srt"
+    ],
+    "AKB": [
+      "AKB-015.srt"
+    ],
+    "AKDL": [
+      "AKDL-294.srt",
+      "AKDL-369.srt"
+    ],
+    "AKDLD": [
+      "AKDLD-346.srt",
+      "AKDLD-367.srt"
+    ],
+    "ALDN": [
+      "ALDN-158.srt",
+      "ALDN-230.srt",
+      "ALDN-569.srt",
+      "ALDN-587.srt",
+      "ALDN-588.srt",
+      "ALDN-589.srt",
+      "ALDN-592.srt",
+      "ALDN-597.srt",
+      "ALDN-598.srt",
+      "ALDN-602.srt",
+      "ALDN-606.srt",
+      "ALDN-613.srt",
+      "ALDN-620.srt",
+      "ALDN-624.srt",
+      "ALDN-625.srt"
+    ],
+    "ALOG": [
+      "ALOG-032.srt"
+    ],
+    "ANDYA": [
+      "ANDYA-026.srt",
+      "ANDYA-046.srt",
+      "ANDYA-047.srt"
+    ],
+    "APAK": [
+      "APAK-331.srt",
+      "APAK-333.srt",
+      "APAK-335.srt"
+    ],
+    "APGH": [
+      "APGH-057.srt",
+      "APGH-058.srt",
+      "APGH-060.srt",
+      "APGH-061.srt"
+    ],
+    "APKH": [
+      "APKH-194.srt",
+      "APKH-195.srt",
+      "APKH-196.srt",
+      "APKH-198.srt"
+    ],
+    "APNS": [
+      "APNS-412.srt",
+      "APNS-416.srt",
+      "APNS-418.srt",
+      "APNS-420.srt",
+      "APNS-423.srt"
+    ],
+    "APRG": [
+      "APRG-003.srt",
+      "APRG-007.srt",
+      "APRG-008.srt"
+    ],
+    "AQMB": [
+      "AQMB-021.srt"
+    ],
+    "AQSH": [
+      "AQSH-025.srt",
+      "AQSH-111.srt"
+    ],
+    "ARM": [
+      "ARM-741.srt"
+    ],
+    "ARSO": [
+      "ARSO-26208.srt"
+    ],
+    "ATFB": [
+      "ATFB-309.srt"
+    ],
+    "ATID": [
+      "ATID-327.ssa",
+      "ATID-397.ssa",
+      "ATID-648.srt",
+      "ATID-654.srt",
+      "ATID-655.srt",
+      "ATID-658.srt",
+      "ATID-676.srt",
+      "ATID-678.srt",
+      "ATID-679.srt",
+      "ATID-680.srt",
+      "ATID-681.srt",
+      "ATID-683.srt",
+      "ATID-685.srt",
+      "ATID-686.srt",
+      "ATID-688.srt",
+      "ATID-689.srt",
+      "ATID-690.srt",
+      "ATID-691.srt",
+      "ATID-692.srt",
+      "ATID-695.srt",
+      "ATID-698.srt",
+      "ATID-700.srt",
+      "ATID-701.srt",
+      "ATID-702.srt",
+      "ATID-704.srt",
+      "ATID-705.srt",
+      "ATID-707.srt",
+      "ATID-708.srt",
+      "ATID-709.srt",
+      "ATID-710.srt",
+      "ATID-711.srt",
+      "ATID-716.srt",
+      "ATID-799.srt"
+    ],
+    "ATKD": [
+      "ATKD-302.srt",
+      "ATKD-304.srt",
+      "ATKD-378.srt"
+    ],
+    "ATOM": [
+      "ATOM-394.srt"
+    ],
+    "ATYA": [
+      "ATYA-040.srt"
+    ],
+    "AUKG": [
+      "AUKG-482.srt",
+      "AUKG-483.srt",
+      "AUKG-494.ass",
+      "AUKG-526.srt",
+      "AUKG-612.srt",
+      "AUKG-657.srt",
+      "AUKG-660.srt"
+    ],
+    "AVOP": [
+      "AVOP-406-CD1.ssa",
+      "AVOP-411.srt"
+    ],
+    "AVSA": [
+      "AVSA-140.srt",
+      "AVSA-162.srt",
+      "AVSA-429.srt",
+      "AVSA-437.srt",
+      "AVSA-460.srt",
+      "AVSA-461.srt",
+      "AVSA-462.srt",
+      "AVSA-465.srt"
+    ],
+    "AWAW": [
+      "AWAW-018.srt",
+      "AWAW-025.srt",
+      "AWAW-028.srt",
+      "AWAW-034.srt"
+    ],
+    "AWT": [
+      "AWT-077.ass"
+    ]
+  },
+  "B": {
+    "BAB": [
+      "BAB-189.srt",
+      "BAB-193.srt",
+      "BAB-195.srt",
+      "BAB-196.srt",
+      "BAB-199.srt",
+      "BAB-200.srt",
+      "BAB-201.srt"
+    ],
+    "BABD": [
+      "BABD-025.srt",
+      "BABD-026.srt"
+    ],
+    "BACJ": [
+      "BACJ-182.srt",
+      "BACJ-183.srt",
+      "BACJ-185.srt",
+      "BACJ-192.srt",
+      "BACJ-194.srt",
+      "BACJ-199.srt"
+    ],
+    "BAGR": [
+      "BAGR-080.srt",
+      "BAGR-092.srt",
+      "BAGR-096.srt"
+    ],
+    "BANK": [
+      "BANK-243.srt",
+      "BANK-250.srt"
+    ],
+    "BAZX": [
+      "BAZX-416.srt"
+    ],
+    "BBAN": [
+      "BBAN-173.srt",
+      "BBAN-199.srt",
+      "BBAN-242.srt",
+      "BBAN-247.srt",
+      "BBAN-284.srt",
+      "BBAN-324.srt",
+      "BBAN-593.srt",
+      "BBAN-594.srt",
+      "BBAN-596.srt",
+      "BBAN-597.srt",
+      "BBAN-600.srt",
+      "BBAN-603.srt",
+      "BBAN-606.srt",
+      "BBAN-607.srt",
+      "BBAN-608.srt",
+      "BBAN-610.srt"
+    ],
+    "BBTU": [
+      "BBTU-118.srt",
+      "BBTU-122.srt"
+    ],
+    "BDSM": [
+      "BDSM-091.srt"
+    ],
+    "BEAF": [
+      "BEAF-182.srt"
+    ],
+    "BF": [
+      "BF-118.srt",
+      "BF-534.ass",
+      "BF-549.srt",
+      "BF-551.srt",
+      "BF-567.ass"
+    ],
+    "BIJN": [
+      "BIJN-285.srt",
+      "BIJN-287.srt",
+      "BIJN-288.srt",
+      "BIJN-290.srt"
+    ],
+    "BITU": [
+      "BITU-001.srt"
+    ],
+    "BKD": [
+      "BKD-369.srt",
+      "BKD-370.srt",
+      "BKD-371.srt"
+    ],
+    "BLK": [
+      "BLK-370.srt",
+      "BLK-693.srt"
+    ],
+    "BLOR": [
+      "BLOR-192.srt",
+      "BLOR-303.srt",
+      "BLOR-305.srt",
+      "BLOR-308.srt",
+      "BLOR-310.srt"
+    ],
+    "BNST": [
+      "BNST-088.srt",
+      "BNST-089.srt",
+      "BNST-090.srt",
+      "BNST-091.srt"
+    ],
+    "BOKO": [
+      "BOKO-001.srt",
+      "BOKO-019.srt"
+    ],
+    "BONU": [
+      "BONU-046.srt"
+    ],
+    "BONY": [
+      "BONY-200.srt",
+      "BONY-207.srt"
+    ],
+    "BUENA": [
+      "BUENA-178.srt"
+    ]
+  },
+  "C": {
+    "CAWB": [
+      "CAWB-001.srt",
+      "CAWB-002.srt",
+      "CAWB-003.srt",
+      "CAWB-004.srt",
+      "CAWB-005.srt",
+      "CAWB-006.srt",
+      "CAWB-008.srt",
+      "CAWB-010.srt",
+      "CAWB-012.srt",
+      "CAWB-014.srt",
+      "CAWB-016.srt",
+      "CAWB-017.srt",
+      "CAWB-018.srt",
+      "CAWB-019.srt",
+      "CAWB-020.srt",
+      "CAWB-022.srt",
+      "CAWB-023.srt",
+      "CAWB-024.srt",
+      "CAWB-026.srt",
+      "CAWB-027.srt",
+      "CAWB-028.srt",
+      "CAWB-031.srt",
+      "CAWB-032.srt",
+      "CAWB-033.srt",
+      "CAWB-034.srt",
+      "CAWB-035.srt",
+      "CAWB-036.srt",
+      "CAWB-037.srt",
+      "CAWB-038.srt",
+      "CAWB-039.srt",
+      "CAWB-040.srt",
+      "CAWB-042.srt",
+      "CAWB-044.srt",
+      "CAWB-048.srt",
+      "CAWB-050.srt",
+      "CAWB-051.srt",
+      "CAWB-053.srt",
+      "CAWB-054.srt",
+      "CAWB-060.srt",
+      "CAWB-062.srt",
+      "CAWB-064.srt",
+      "CAWB-067.srt",
+      "CAWB-069.srt",
+      "CAWB-071.srt",
+      "CAWB-077.srt",
+      "CAWB-078.srt",
+      "CAWB-079.srt"
+    ],
+    "CAWD": [
+      "CAWD-243.srt",
+      "CAWD-331.srt",
+      "CAWD-365.srt",
+      "CAWD-741.srt",
+      "CAWD-972.srt",
+      "CAWD-974.srt",
+      "CAWD-982.srt",
+      "CAWD-987.srt",
+      "CAWD-988.srt",
+      "CAWD-989.srt",
+      "CAWD-991.srt",
+      "CAWD-992.srt",
+      "CAWD-998.srt",
+      "CAWD-999.srt"
+    ],
+    "CEAD": [
+      "CEAD-307.srt",
+      "CEAD-730.srt",
+      "CEAD-751.srt"
+    ],
+    "CEMD": [
+      "CEMD-840.srt",
+      "CEMD-847.srt",
+      "CEMD-851.srt",
+      "CEMD-857.srt",
+      "CEMD-871.srt",
+      "CEMD-898.srt",
+      "CEMD-900.srt",
+      "CEMD-906.srt",
+      "CEMD-908.srt",
+      "CEMD-913.srt"
+    ],
+    "CESD": [
+      "CESD-392.srt",
+      "CESD-444.srt",
+      "CESD-586.srt",
+      "CESD-637.srt",
+      "CESD-639.srt",
+      "CESD-663.srt",
+      "CESD-722.srt"
+    ],
+    "CHIB": [
+      "CHIB-005.srt"
+    ],
+    "CHUC": [
+      "CHUC-186.srt",
+      "CHUC-194.srt"
+    ],
+    "CJOB": [
+      "CJOB-044.srt",
+      "CJOB-046.ssa"
+    ],
+    "CJOD": [
+      "CJOD-120.srt",
+      "CJOD-149.srt",
+      "CJOD-191.ass",
+      "CJOD-246.srt",
+      "CJOD-270.srt",
+      "CJOD-504.srt",
+      "CJOD-510.srt",
+      "CJOD-511.srt",
+      "CJOD-514.srt",
+      "CJOD-517.srt",
+      "CJOD-518.srt",
+      "CJOD-521.srt",
+      "CJOD-522.srt",
+      "CJOD-523.srt",
+      "CJOD-524.srt",
+      "CJOD-525.srt",
+      "CJOD-526.srt",
+      "CJOD-527.srt",
+      "CJOD-529.srt",
+      "CJOD-530.srt",
+      "CJOD-531.srt",
+      "CJOD-534.srt",
+      "CJOD-535.srt",
+      "CJOD-536.srt",
+      "CJOD-537.srt",
+      "CJOD-538.srt",
+      "CJOD-540.srt",
+      "CJOD-543.srt",
+      "CJOD-544.srt",
+      "CJOD-547.srt",
+      "CJOD-548.srt",
+      "CJOD-591.srt",
+      "CJOD-592.srt"
+    ],
+    "CLDG": [
+      "CLDG-014.srt"
+    ],
+    "CLOT": [
+      "CLOT-040.srt",
+      "CLOT-043.srt",
+      "CLOT-044.srt"
+    ],
+    "CLUB": [
+      "CLUB-362.srt",
+      "CLUB-370.srt",
+      "CLUB-404.srt",
+      "CLUB-625.srt",
+      "CLUB-905.srt",
+      "CLUB-908.srt",
+      "CLUB-915.srt",
+      "CLUB-920.srt",
+      "CLUB-921.srt",
+      "CLUB-925.srt",
+      "CLUB-926.srt",
+      "CLUB-928.srt",
+      "CLUB-929.srt",
+      "CLUB-932.srt",
+      "CLUB-934.srt",
+      "CLUB-935.srt",
+      "CLUB-936.srt",
+      "CLUB-937.srt",
+      "CLUB-938-CD1.srt",
+      "CLUB-938-CD2.srt",
+      "CLUB-939.srt",
+      "CLUB-943-CD2.srt",
+      "CLUB-944.srt",
+      "CLUB-945.srt"
+    ],
+    "CMV": [
+      "CMV-211.srt"
+    ],
+    "COSX": [
+      "COSX-106.srt"
+    ],
+    "CRNX": [
+      "CRNX-265.srt",
+      "CRNX-343.srt",
+      "CRNX-346.srt",
+      "CRNX-347.srt",
+      "CRNX-348.srt",
+      "CRNX-351.srt",
+      "CRNX-352.srt",
+      "CRNX-353.srt",
+      "CRNX-389.srt"
+    ],
+    "CRVR": [
+      "CRVR-00426-CD1.srt",
+      "CRVR-00426-CD2.srt",
+      "CRVR-00426-CD3.srt"
+    ],
+    "CSCT": [
+      "CSCT-010.srt"
+    ],
+    "CWM": [
+      "CWM-174-CD1.srt"
+    ]
+  },
+  "D": {
+    "DAL": [
+      "DAL-012.srt"
+    ],
+    "DAM": [
+      "DAM-010.srt"
+    ],
+    "DANDY": [
+      "DANDY-424.srt",
+      "DANDY-601.srt",
+      "DANDY-606.srt",
+      "DANDY-737.srt"
+    ],
+    "DANDYA": [
+      "DANDYA-040.srt"
+    ],
+    "DASD": [
+      "DASD-318.srt",
+      "DASD-468.srt",
+      "DASD-479.ass",
+      "DASD-572.srt",
+      "DASD-982.srt"
+    ],
+    "DASS": [
+      "DASS-036.srt",
+      "DASS-038.srt",
+      "DASS-047.srt",
+      "DASS-092.srt"
+    ]
+  }
+}
