@@ -4,7 +4,7 @@ MDC-NGi 字幕池。下载字幕请进入 [Subtitles](Subtitles)，程序可直�
 
 ## 上传字幕
 
-1. `jzdxjk` 从本仓库创建自己的 Fork，并从最新的 `main` 新建分支。
+1. 从本仓库创建自己的 Fork，并从最新的 `main` 新建分支。
 2. 将字幕打包成 ZIP，在 Fork 的 [update](update) 目录上传，目录下可以一次放多个 ZIP。
 3. 提交 Pull Request 到本仓库的 `main`。PR 只需新增 `update/` 下的 ZIP。GitHub Actions 校验通过后会自动合并并入库。
 
