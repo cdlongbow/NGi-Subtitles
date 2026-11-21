@@ -190,7 +190,10 @@
       "ALDN-613.srt",
       "ALDN-620.srt",
       "ALDN-624.srt",
-      "ALDN-625.srt"
+      "ALDN-625.srt",
+      "ALDN-627.srt",
+      "ALDN-628.srt",
+      "ALDN-629.srt"
     ],
     "ALOG": [
       "ALOG-032.srt"
@@ -203,7 +206,8 @@
     "APAK": [
       "APAK-331.srt",
       "APAK-333.srt",
-      "APAK-335.srt"
+      "APAK-335.srt",
+      "APAK-342.srt"
     ],
     "APGH": [
       "APGH-057.srt",
@@ -520,7 +524,8 @@
       "CEMD-900.srt",
       "CEMD-906.srt",
       "CEMD-908.srt",
-      "CEMD-913.srt"
+      "CEMD-913.srt",
+      "CEMD-918.srt"
     ],
     "CESD": [
       "CESD-392.srt",
@@ -826,6 +831,9 @@
       "DOCP-123.srt",
       "DOCP-269.srt"
     ],
+    "DOGG": [
+      "DOGG-004.srt"
+    ],
     "DOKS": [
       "DOKS-501.srt",
       "DOKS-682.srt",
@@ -947,6 +955,7 @@
       "DSOD-136.srt",
       "DSOD-138.srt",
       "DSOD-141.srt",
+      "DSOD-142.srt",
       "DSOD-21.srt"
     ],
     "DSVR": [
@@ -1270,7 +1279,8 @@
       "FNS-271.srt",
       "FNS-273.srt",
       "FNS-274.srt",
-      "FNS-275.srt"
+      "FNS-275.srt",
+      "FNS-279.srt"
     ],
     "FPRE": [
       "FPRE-236.srt",
@@ -1420,7 +1430,8 @@
     ],
     "GQN": [
       "GQN-007.srt",
-      "GQN-014.srt"
+      "GQN-014.srt",
+      "GQN-016.srt"
     ],
     "GRMO": [
       "GRMO-334.srt"
@@ -1485,6 +1496,7 @@
       "HALT-086.srt",
       "HALT-089.srt",
       "HALT-091.srt",
+      "HALT-098.srt",
       "HALT-91.srt"
     ],
     "HAR": [
@@ -1589,7 +1601,8 @@
       "HMN-919.srt",
       "HMN-920.srt",
       "HMN-921.srt",
-      "HMN-922.srt"
+      "HMN-922.srt",
+      "HMN-924.srt"
     ],
     "HND": [
       "HND-533.srt",
@@ -1703,8 +1716,10 @@
       "HUNTC-510.srt",
       "HUNTC-535.srt",
       "HUNTC-538.srt",
+      "HUNTC-539.srt",
       "HUNTC-550.srt",
       "HUNTC-551.srt",
+      "HUNTC-555.srt",
       "HUNTC-569.srt",
       "HUNTC-572.srt",
       "HUNTC-574.srt",
@@ -1715,10 +1730,12 @@
       "HUNTC-622.srt",
       "HUNTC-623.srt",
       "HUNTC-631.srt",
+      "HUNTC-649.srt",
       "HUNTC-660.srt",
       "HUNTC-676.srt",
       "HUNTC-678.srt",
-      "HUNTC-682.srt"
+      "HUNTC-682.srt",
+      "HUNTC-692.srt"
     ],
     "HZ": [
       "HZ-012.srt",
@@ -2324,7 +2341,8 @@
       "JYMA-114.srt",
       "JYMA-115.srt",
       "JYMA-116.srt",
-      "JYMA-118.srt"
+      "JYMA-118.srt",
+      "JYMA-119.srt"
     ]
   },
   "K": {
@@ -2410,7 +2428,8 @@
     ],
     "LUCY": [
       "LUCY-029.srt",
-      "LUCY-032.srt"
+      "LUCY-032.srt",
+      "LUCY-033.srt"
     ],
     "LULU": [
       "LULU-065.srt",
@@ -2868,6 +2887,7 @@
       "MIDV-354.srt",
       "MIDV-400.srt",
       "MIDV-433.srt",
+      "MIDV-518.srt",
       "MIDV-530.srt",
       "MIDV-592.srt",
       "MIDV-682.srt",
@@ -3055,7 +3075,8 @@
       "MKMP-759.srt",
       "MKMP-760.srt",
       "MKMP-763.srt",
-      "MKMP-764.srt"
+      "MKMP-764.srt",
+      "MKMP-768.srt"
     ],
     "MKON": [
       "MKON-142.srt",
@@ -3431,7 +3452,8 @@
       "NSFS-507.srt",
       "NSFS-508.srt",
       "NSFS-513.srt",
-      "NSFS-517.srt"
+      "NSFS-517.srt",
+      "NSFS-530.srt"
     ],
     "NSODN": [
       "NSODN-022.srt",
@@ -3551,6 +3573,9 @@
     ],
     "PEEP": [
       "PEEP-180.srt"
+    ],
+    "PETS": [
+      "PETS-074.srt"
     ],
     "PFES": [
       "PFES-028.srt",
@@ -3782,6 +3807,7 @@
       "RLMP-023.srt",
       "RLMP-024.srt",
       "RLMP-026.srt",
+      "RLMP-029.srt",
       "RLMP-031.srt",
       "RLMP-5.srt"
     ],
@@ -4358,12 +4384,14 @@
       "SNOS-474.srt",
       "SNOS-475.srt",
       "SNOS-476.srt",
+      "SNOS-477.srt",
       "SNOS-483.srt",
       "SNOS-484.srt",
       "SNOS-485.srt",
       "SNOS-486.srt",
       "SNOS-489.srt",
       "SNOS-511.srt",
+      "SNOS-518.srt",
       "SNOS-521.srt",
       "SNOS-524.srt"
     ],
@@ -4465,6 +4493,7 @@
       "SSIS-157.srt",
       "SSIS-173.srt",
       "SSIS-192.srt",
+      "SSIS-204.srt",
       "SSIS-241.srt",
       "SSIS-280.srt",
       "SSIS-282.srt",
