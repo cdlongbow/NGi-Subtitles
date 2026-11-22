@@ -1,5 +1,7 @@
 # NGi-Subtitles
 
+## 强烈感谢 jzdxjk 大佬的制作整理
+
 MDC-NGi 字幕池。下载字幕请进入 [Subtitles](Subtitles)，程序可直接读取根目录的 [tree.json](tree.json)。
 
 ## 上传字幕
