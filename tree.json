@@ -5,6 +5,7 @@
       "AARM-375.srt"
     ],
     "ABF": [
+      "ABF-007.srt",
       "ABF-087.srt",
       "ABF-125.srt",
       "ABF-334.srt",
@@ -93,6 +94,7 @@
       "ABW-023.srt",
       "ABW-043.srt",
       "ABW-065.srt",
+      "ABW-135.srt",
       "ABW-153.srt",
       "ABW-208.srt"
     ],
@@ -100,6 +102,7 @@
       "ABY-014.srt"
     ],
     "ACHJ": [
+      "ACHJ-008.srt",
       "ACHJ-048.srt",
       "ACHJ-085.srt",
       "ACHJ-088.srt",
@@ -383,6 +386,9 @@
     "BBTU": [
       "BBTU-118.srt",
       "BBTU-122.srt"
+    ],
+    "BDA": [
+      "BDA-048.srt"
     ],
     "BDSM": [
       "BDSM-091.srt"
@@ -1389,6 +1395,7 @@
       "GANA-3461.srt",
       "GANA-3468.srt",
       "GANA-3470.srt",
+      "GANA-3471.srt",
       "GANA-3478.srt",
       "GANA-3482.srt",
       "GANA-3483.srt",
@@ -1794,7 +1801,8 @@
       "IPBZ-023.srt"
     ],
     "IPOK": [
-      "IPOK-006.srt"
+      "IPOK-006.srt",
+      "IPOK-026-CD3.srt"
     ],
     "IPTD": [
       "IPTD-757.srt"
@@ -1843,6 +1851,7 @@
       "IPX-867.srt",
       "IPX-868.srt",
       "IPX-875.srt",
+      "IPX-884.srt",
       "IPX-889.srt",
       "IPX-954.srt"
     ],
@@ -2324,7 +2333,8 @@
       "JUR-950.srt"
     ],
     "JURA": [
-      "JURA-191.srt"
+      "JURA-191.srt",
+      "JURA-205.srt"
     ],
     "JUTA": [
       "JUTA-177.srt",
@@ -2347,6 +2357,9 @@
   },
   "K": {
     "KAM": [
+      "KAM-084.srt",
+      "KAM-090.srt",
+      "KAM-091.srt",
       "KAM-212.srt",
       "KAM-282.srt"
     ],
@@ -2366,6 +2379,7 @@
       "KNKS-001.srt"
     ],
     "KNMB": [
+      "KNMB-007.srt",
       "KNMB-132.srt",
       "KNMB-133.srt",
       "KNMB-134.srt"
@@ -2548,6 +2562,10 @@
       "MDBK-432.srt"
     ],
     "MDON": [
+      "MDON-001.srt",
+      "MDON-003.srt",
+      "MDON-055.srt",
+      "MDON-077.srt",
       "MDON-087.srt"
     ],
     "MDTM": [
@@ -2674,6 +2692,7 @@
     ],
     "MIAB": [
       "MIAB-317.srt",
+      "MIAB-348.srt",
       "MIAB-502.srt",
       "MIAB-667.srt",
       "MIAB-677.srt",
@@ -4159,6 +4178,7 @@
       "SNIS-539.srt",
       "SNIS-557.srt",
       "SNIS-645.srt",
+      "SNIS-648.srt",
       "SNIS-662.srt",
       "SNIS-735.srt",
       "SNIS-839.srt",
@@ -4491,6 +4511,7 @@
       "SSIS-088.srt",
       "SSIS-137.srt",
       "SSIS-157.srt",
+      "SSIS-165.srt",
       "SSIS-173.srt",
       "SSIS-192.srt",
       "SSIS-204.srt",
@@ -4700,6 +4721,9 @@
       "TANF-044.srt",
       "TANF-045.srt"
     ],
+    "TEK": [
+      "TEK-067.srt"
+    ],
     "TEM": [
       "TEM-028.srt",
       "TEM-056.srt"
@@ -4844,6 +4868,9 @@
       "VENX-381.srt",
       "VENX-386.srt"
     ],
+    "VICD": [
+      "VICD-294-CD294.srt"
+    ],
     "VOD": [
       "VOD-058.srt",
       "VOD-059.srt",
@@ -4921,6 +4948,7 @@
     ],
     "WANZ": [
       "WANZ-161.srt",
+      "WANZ-552.srt",
       "WANZ-636.srt",
       "WANZ-856.srt"
     ],
