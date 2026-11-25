@@ -41,7 +41,7 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: python3 scripts/subtitle_pool.py approve "$GITHUB_EVENT_PATH"
-      - name: 解压字幕并更新索引
+      - name: 处理字幕上传并更新文件树
         env:
           REBUILD_INDEX: ${{ inputs.rebuild == true }}
         run: |

@@ -1,4 +1,4 @@
-"""Validate ZIP submissions and maintain the subtitle pool."""
+"""Validate subtitle submissions and maintain the subtitle pool."""
 
 import argparse
 import hashlib
@@ -108,11 +108,11 @@ def validate_targets(files, pending):
     for target, data in files.items():
         digest = hashlib.sha256(data).digest()
         if target in pending and pending[target] != digest:
-            raise InvalidUpload(f"submitted ZIPs contain different versions of {target}")
+            raise InvalidUpload(f"submission contains different versions of {target}")
         if any(path.is_symlink() for path in (target, *target.parents)):
             raise InvalidUpload(f"subtitle path contains a symlink: {target}")
-        if target.exists() and (not target.is_file() or target.read_bytes() != data):
-            raise InvalidUpload(f"a different file already exists at {target}")
+        if target.exists() and not target.is_file():
+            raise InvalidUpload(f"subtitle path is not a regular file: {target}")
         digests[target] = digest
     pending.update(digests)
 
@@ -155,14 +155,22 @@ def approve(event):
     for metadata, raw_path in zip(entries[::2], entries[1::2], strict=True):
         _, mode, _, blob, status = metadata.decode("ascii").split()
         path = raw_path.decode("utf-8")
-        if (
-            status != "A" or mode != "100644"
-            or not path.startswith("update/") or not archive_name(path.removeprefix("update/"))
-        ):
-            raise InvalidUpload(f"PR may only add regular ZIP files directly under update/: {path!r}")
-        if int(git("cat-file", "-s", blob)) > MAX_ZIP:
-            raise InvalidUpload(f"ZIP exceeds 50 MiB: {path!r}")
-        files, _ = read_archive(io.BytesIO(git("cat-file", "blob", blob)))
+        is_archive = status == "A" and path.startswith("update/") and archive_name(path.removeprefix("update/"))
+        target = subtitle_path(Path(path).name)
+        is_subtitle = status in ("A", "M") and target is not None and target.as_posix() == path
+        if mode != "100644" or not (is_archive or is_subtitle):
+            raise InvalidUpload(
+                f"PR may only add ZIPs directly under update/ or add/replace correctly named subtitles: {path!r}"
+            )
+        size = int(git("cat-file", "-s", blob))
+        if is_archive:
+            if size > MAX_ZIP:
+                raise InvalidUpload(f"ZIP exceeds 50 MiB: {path!r}")
+            files, _ = read_archive(io.BytesIO(git("cat-file", "blob", blob)))
+        else:
+            if not 0 < size <= MAX_MEMBER:
+                raise InvalidUpload(f"empty or oversized subtitle: {path!r}")
+            files = {target: git("cat-file", "blob", blob)}
         validate_targets(files, pending)
 
     # Bind the squash merge to the exact head whose Git blobs were validated.
@@ -241,7 +249,7 @@ def ingest(rebuild):
             continue
 
         for target, data in files.items():
-            if not target.exists():
+            if not target.exists() or target.read_bytes() != data:
                 target.parent.mkdir(parents=True, exist_ok=True)
                 target.write_bytes(data)
             groups.add(target.parent)
