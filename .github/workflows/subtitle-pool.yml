@@ -59,7 +59,7 @@ jobs:
             if [[ "$result" != 0 && "$result" != 2 ]]; then
               exit "$result"
             fi
-            git add -A -- update Subtitles tree.json
+            git add -A -- update Subtitles tree.json README.md
             if git diff --cached --quiet; then
               exit "$result"
             fi

@@ -1,6 +1,7 @@
 """Validate subtitle submissions and maintain the subtitle pool."""
 
 import argparse
+from datetime import datetime
 import hashlib
 import io
 import json
@@ -11,8 +12,10 @@ import stat
 import subprocess
 import sys
 import time
+from urllib.parse import quote
 import zipfile
 import zlib
+from zoneinfo import ZoneInfo
 
 
 REPOSITORY = "li-peifeng/NGi-Subtitles"
@@ -20,6 +23,7 @@ UPLOADER_ID = 144838180  # jzdxjk
 SUBTITLES = Path("Subtitles")
 INBOX = Path("update")
 INDEX = Path("tree.json")
+README = Path("README.md")
 NUMBER = re.compile(
     r"([A-Z0-9]{1,80})-([0-9]{1,40})(-CD[0-9]{1,16})?[.]([A-Z0-9]{1,16})",
     re.ASCII | re.I,
@@ -229,9 +233,31 @@ def refresh_index(index, groups):
     INDEX.write_text(json.dumps(index, indent=2, sort_keys=True) + "\n", encoding="utf-8")
 
 
+def refresh_badge(index, subtitles_written):
+    total = sum(len(filenames) for prefixes in index.values() for filenames in prefixes.values())
+    timezone = ZoneInfo("Europe/Rome")
+    if subtitles_written:
+        updated = datetime.now(timezone).date().isoformat()
+    else:
+        timestamp = git("log", "-1", "--first-parent", "--format=%ct", "--", str(SUBTITLES)).strip()
+        updated = datetime.fromtimestamp(int(timestamp), timezone).date().isoformat() if timestamp else "暂无"
+
+    label = f"字幕总数 {total:,}"
+    message = f"更新 {updated}"
+    badge_url = f"https://img.shields.io/badge/{quote(label)}-{quote(message.replace('-', '--'))}-blue"
+    badge = f"![{label} · {message}]({badge_url}) <!-- subtitle-pool-badge -->"
+
+    readme = README.read_text(encoding="utf-8")
+    body = re.sub(r"(?m)^!\[.* <!-- subtitle-pool-badge -->\n\n", "", readme, count=1)
+    updated_readme = body.replace("# NGi-Subtitles\n", f"# NGi-Subtitles\n\n{badge}\n", 1)
+    if updated_readme != readme:
+        README.write_text(updated_readme, encoding="utf-8")
+
+
 def ingest(rebuild):
     index, groups = changed_groups(rebuild)
     failed = False
+    subtitles_written = False
     for archive in sorted(INBOX.iterdir()):
         if not archive.name.lower().endswith(".zip"):
             continue
@@ -252,11 +278,13 @@ def ingest(rebuild):
             if not target.exists() or target.read_bytes() != data:
                 target.parent.mkdir(parents=True, exist_ok=True)
                 target.write_bytes(data)
+                subtitles_written = True
             groups.add(target.parent)
         archive.unlink()
         print(f"Imported {archive.name!r}: {len(files)} subtitles, {ignored} unmatched files skipped")
 
     refresh_index(index, groups)
+    refresh_badge(index, subtitles_written)
     return 2 if failed else 0
 
 
