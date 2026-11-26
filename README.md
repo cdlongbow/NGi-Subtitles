@@ -1,6 +1,6 @@
 # NGi-Subtitles
 
-![字幕总数 3,969 · 更新 2026-11-25](https://img.shields.io/badge/%E5%AD%97%E5%B9%95%E6%80%BB%E6%95%B0%203%2C969-%E6%9B%B4%E6%96%B0%202026--11--25-blue) <!-- subtitle-pool-badge -->
+![字幕总数 3,989 · 更新 2026-11-26](https://img.shields.io/badge/%E5%AD%97%E5%B9%95%E6%80%BB%E6%95%B0%203%2C989-%E6%9B%B4%E6%96%B0%202026--11--26-blue) <!-- subtitle-pool-badge -->
 
 ## 强烈感谢 jzdxjk 大佬的制作整理
 

@@ -9,6 +9,7 @@
       "ABF-087.srt",
       "ABF-120.srt",
       "ABF-125.srt",
+      "ABF-159.srt",
       "ABF-334.srt",
       "ABF-338.srt",
       "ABF-340.srt",
@@ -399,6 +400,7 @@
       "BDSM-091.srt"
     ],
     "BEAF": [
+      "BEAF-048.srt",
       "BEAF-182.srt"
     ],
     "BF": [
@@ -556,7 +558,8 @@
     ],
     "CJOB": [
       "CJOB-044.srt",
-      "CJOB-046.ssa"
+      "CJOB-046.ssa",
+      "CJOB-164.srt"
     ],
     "CJOD": [
       "CJOD-120.srt",
@@ -824,7 +827,8 @@
       "DLDSS-578.srt",
       "DLDSS-581.srt",
       "DLDSS-583.srt",
-      "DLDSS-584.srt"
+      "DLDSS-584.srt",
+      "DLDSS-587.srt"
     ],
     "DNJR": [
       "DNJR-162.srt",
@@ -1871,6 +1875,7 @@
       "IPX-954.srt"
     ],
     "IPZ": [
+      "IPZ-036.srt",
       "IPZ-538.srt",
       "IPZ-559.srt",
       "IPZ-722.srt",
@@ -2114,6 +2119,7 @@
       "JUC-602.srt"
     ],
     "JUFD": [
+      "JUFD-163.srt",
       "JUFD-685.srt",
       "JUFD-741.srt",
       "JUFD-916.srt",
@@ -2491,7 +2497,9 @@
       "LUXU-1901.srt",
       "LUXU-1903.srt",
       "LUXU-1904.srt",
-      "LUXU-1908.srt"
+      "LUXU-1906.srt",
+      "LUXU-1908.srt",
+      "LUXU-1922.srt"
     ],
     "LVSC": [
       "LVSC-011.srt"
@@ -2915,7 +2923,8 @@
       "MIDD-643.srt",
       "MIDD-775.srt",
       "MIDD-822.srt",
-      "MIDD-832.srt"
+      "MIDD-832.srt",
+      "MIDD-944.srt"
     ],
     "MIDE": [
       "MIDE-139.srt",
@@ -2949,6 +2958,7 @@
       "MIFD-735.srt"
     ],
     "MIGD": [
+      "MIGD-215.srt",
       "MIGD-526.srt"
     ],
     "MIHD": [
@@ -3032,6 +3042,7 @@
     "MIRD": [
       "MIRD-128.ass",
       "MIRD-130.srt",
+      "MIRD-134.srt",
       "MIRD-176.srt",
       "MIRD-268.srt",
       "MIRD-275.srt",
@@ -3128,7 +3139,8 @@
     "MKON": [
       "MKON-142.srt",
       "MKON-144.srt",
-      "MKON-145.srt"
+      "MKON-145.srt",
+      "MKON-155.srt"
     ],
     "MLA": [
       "MLA-286.srt"
@@ -3506,6 +3518,7 @@
       "NSFS-508.srt",
       "NSFS-513.srt",
       "NSFS-517.srt",
+      "NSFS-528.srt",
       "NSFS-530.srt"
     ],
     "NSODN": [
@@ -3581,6 +3594,9 @@
     "OMG": [
       "OMG-048.srt"
     ],
+    "ONED": [
+      "ONED-293.srt"
+    ],
     "ONSD": [
       "ONSD-946.srt"
     ],
@@ -3616,7 +3632,8 @@
       "PASN-027.srt"
     ],
     "PBD": [
-      "PBD-528.srt"
+      "PBD-528.srt",
+      "PBD-530.srt"
     ],
     "PDV": [
       "PDV-032.srt"
@@ -3810,7 +3827,8 @@
       "RBD-378.srt",
       "RBD-667.srt",
       "RBD-682.srt",
-      "RBD-780.srt"
+      "RBD-780.srt",
+      "RBD-816.srt"
     ],
     "RBK": [
       "RBK-129.srt",
@@ -4479,7 +4497,8 @@
     ],
     "SOE": [
       "SOE-231.srt",
-      "SOE-370.srt"
+      "SOE-370.srt",
+      "SOE-385.srt"
     ],
     "SONE": [
       "SONE-012.srt",
@@ -4581,7 +4600,9 @@
       "SSNI-229.srt",
       "SSNI-258.srt",
       "SSNI-322.srt",
+      "SSNI-374.srt",
       "SSNI-417.srt",
+      "SSNI-420.srt",
       "SSNI-520.srt",
       "SSNI-589.srt",
       "SSNI-618.srt",
@@ -5003,6 +5024,7 @@
       "WANZ-856.srt"
     ],
     "WAT": [
+      "WAT-006.srt",
       "WAT-010.srt"
     ],
     "WO": [
